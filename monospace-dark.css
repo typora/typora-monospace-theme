@@ -325,7 +325,7 @@ ul[cid] {
 }
 ul[cid] li:before {
   content: "*";
-  margin-left: -2ch;
+  margin-left: -3ch;
   position: absolute;
   color: #4fac4f;
 }
@@ -813,4 +813,8 @@ titlebar {
 
 .file-node-content:hover {
   color: white;
+}
+
+.md-task-list-item>input {
+  margin-top: calc(1rem - 12px);
 }
