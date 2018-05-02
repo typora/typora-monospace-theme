@@ -507,12 +507,11 @@ hr:after {
 }
 /**apply to code fences with plan text**/
 .md-fences {
-  background-color: #263238;
+  background: #263238;
   color: #e9eded;
   border: none;
   overflow-x: visible;
   white-space: pre;
-  background: inherit;
   border-radius: 3px;
   padding-top: 4px;
   padding-bottom: 4px;
