@@ -763,13 +763,9 @@ input.form-control {
 .md-expand.md-image > .md-meta {
   background-color: rgba(219, 219, 219, 0.86);
 }
-footer {
-  border-top: 1px dotted #CCC;
-}
 @media (min-width: 1000px) {
-  footer {
+  .ty-footer {
     background-color: inherit;
-    border-top: 1px dotted #CCC;
   }
 }
 
@@ -797,7 +793,7 @@ titlebar {
 
 .sidebar-footer {
   background: #222;
-  border-top: 1px #555 solid;
+  border-top: 1px transparent solid;
 }
 
 .file-list-item,
