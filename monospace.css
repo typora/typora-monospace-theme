@@ -1,4 +1,4 @@
-@include-when-export url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Inconsolata:400,700&subset=latin-ext);
 /* latin-ext */
 @font-face {
   font-family: 'Inconsolata';
@@ -204,38 +204,31 @@ a.md-toc-inner {
   width: 100%;
 }
 #write > h1,
-#write > p [mdlike='h1'] {
+#write > [mdlike='h1'] {
   margin-left: -2ch;
 }
 #write > h2,
-#write > p [mdlike='h2'] {
+#write > [mdlike='h2'] {
   margin-left: -3ch;
 }
 #write > h3,
-#write > p [mdlike='h3'] {
+#write > [mdlike='h3'] {
   margin-left: -4ch;
 }
 #write > h4,
-#write > p [mdlike='h4'] {
+#write > [mdlike='h4'] {
   margin-left: -5ch;
 }
 #write > h5,
-#write > p [mdlike='h5'] {
+#write > [mdlike='h5'] {
   margin-left: -6ch;
 }
 #write > h6,
-#write > p [mdlike='h6'] {
+#write > [mdlike='h6'] {
   margin-left: -7ch;
 }
-#write p,
-#write > p:first-child {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-#write p > .md-line:first-child {
+#write p{
   margin-top: 1rem;
-}
-#write p > .md-line:last-child {
   margin-bottom: 1rem;
 }
 #write h1,
@@ -244,12 +237,12 @@ a.md-toc-inner {
 #write h4,
 #write h5,
 #write h6,
-#write p > .md-line[mdlike='h1'],
-#write p > .md-line[mdlike='h2'],
-#write p > .md-line[mdlike='h3'],
-#write p > .md-line[mdlike='h4'],
-#write p > .md-line[mdlike='h5'],
-#write p > .md-line[mdlike='h6'] {
+#write [mdlike='h1'],
+#write [mdlike='h2'],
+#write [mdlike='h3'],
+#write [mdlike='h4'],
+#write [mdlike='h5'],
+#write [mdlike='h6'] {
   margin-top: 0.83em;
   margin-bottom: 0.83em;
 }
@@ -304,12 +297,12 @@ a.md-toc-inner {
   #write > h4,
   #write > h5,
   #write > h6,
-  #write > p [mdlike='h1'],
-  #write > p [mdlike='h2'],
-  #write > p [mdlike='h3'],
-  #write > p [mdlike='h4'],
-  #write > p [mdlike='h5'],
-  #write > p [mdlike='h6'] {
+  #write > [mdlike='h1'],
+  #write > [mdlike='h2'],
+  #write > [mdlike='h3'],
+  #write > [mdlike='h4'],
+  #write > [mdlike='h5'],
+  #write > [mdlike='h6'] {
     margin-left: 0;
   }
 }
