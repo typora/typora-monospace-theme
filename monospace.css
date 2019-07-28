@@ -613,3 +613,7 @@ content {
 .md-task-list-item>input {
   margin-top: calc(1rem - 12px);
 }
+
+#typora-quick-open {
+  color: #eee;
+}
