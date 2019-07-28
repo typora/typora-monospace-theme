@@ -388,9 +388,10 @@ hr:after {
 .CodeMirror.cm-s-inner {
   padding-top: 8px;
   border-radius: 3px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
-.CodeMirror.cm-s-inner .CodeMirror-gutters {
+
+.CodeMirror-gutters {
   background: #263238;
   color: #537f7e;
   border: none;
@@ -517,7 +518,6 @@ hr:after {
 }
 .md-fences .CodeMirror.cm-s-inner:after {
   content: "```";
-  position: absolute;
   bottom: 0;
   z-index: 99;
 }
