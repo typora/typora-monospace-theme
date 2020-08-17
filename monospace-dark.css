@@ -9,6 +9,7 @@
   --active-file-bg-color: rgba(219, 219, 253, 0.4);
   --active-file-text-color: white;
   --control-text-color: #ccc;
+  --rawblock-edit-panel-bd: #263238;
 }
 
 html, body {
